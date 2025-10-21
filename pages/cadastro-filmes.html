@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Filmes</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Controle de Cinema</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro-filmes.html">Filmes</a></li>
+                <li><a href="cadastro-salas.html">Salas</a></li>
+                <li><a href="cadastro-sessoes.html">Sessões</a></li>
+                <li><a href="venda-ingressos.html">Venda de Ingressos</a></li>
+                <li><a href="sessoes.html">Sessões Disponíveis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cadastro de Filmes</h2>
+        <form id="form-filme">
+            <label for="titulo">Título:</label>
+            <input type="text" id="titulo" required>
+
+            <label for="descricao">Descrição:</label>
+            <textarea id="descricao"></textarea>
+
+            <label for="genero">Gênero:</label>
+            <select id="genero">
+                <option value="acao">Ação</option>
+                <option value="comedia">Comédia</option>
+                <option value="drama">Drama</option>
+                <option value="ficcao">Ficção Científica</option>
+                <option value="terror">Terror</option>
+                <option value="romance">Romance</option>
+            </select>
+
+            <label for="classificacao">Classificação Indicativa:</label>
+            <select id="classificacao">
+                <option value="livre">Livre</option>
+                <option value="10">10 anos</option>
+                <option value="12">12 anos</option>
+                <option value="14">14 anos</option>
+                <option value="16">16 anos</option>
+                <option value="18">18 anos</option>
+            </select>
+
+            <label for="duracao">Duração (minutos):</label>
+            <input type="number" id="duracao" required>
+
+            <label for="dataEstreia">Data de Estreia:</label>
+            <input type="date" id="dataEstreia" required>
+
+            <button type="submit">Salvar Filme</button>
+        </form>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>

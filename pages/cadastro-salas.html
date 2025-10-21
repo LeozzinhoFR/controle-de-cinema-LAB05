@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Salas</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Controle de Cinema</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro-filmes.html">Filmes</a></li>
+                <li><a href="cadastro-salas.html">Salas</a></li>
+                <li><a href="cadastro-sessoes.html">Sessões</a></li>
+                <li><a href="venda-ingressos.html">Venda de Ingressos</a></li>
+                <li><a href="sessoes.html">Sessões Disponíveis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cadastro de Salas</h2>
+        <form id="form-sala">
+            <label for="nomeSala">Nome da Sala:</label>
+            <input type="text" id="nomeSala" required>
+
+            <label for="capacidade">Capacidade:</label>
+            <input type="number" id="capacidade" required>
+
+            <label for="tipoSala">Tipo:</label>
+            <select id="tipoSala">
+                <option value="2D">2D</option>
+                <option value="3D">3D</option>
+                <option value="IMAX">IMAX</option>
+            </select>
+
+            <button type="submit">Salvar Sala</button>
+        </form>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>

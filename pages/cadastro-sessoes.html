@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Sessões</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Controle de Cinema</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="cadastro-filmes.html">Filmes</a></li>
+                <li><a href="cadastro-salas.html">Salas</a></li>
+                <li><a href="cadastro-sessoes.html">Sessões</a></li>
+                <li><a href="venda-ingressos.html">Venda de Ingressos</a></li>
+                <li><a href="sessoes.html">Sessões Disponíveis</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Cadastro de Sessões</h2>
+        <form id="form-sessao">
+            <label for="filme">Filme:</label>
+            <select id="filme" required>
+                <!-- Opções de filmes serão carregadas via JavaScript -->
+            </select>
+
+            <label for="sala">Sala:</label>
+            <select id="sala" required>
+                <!-- Opções de salas serão carregadas via JavaScript -->
+            </select>
+
+            <label for="dataHora">Data e Hora:</label>
+            <input type="datetime-local" id="dataHora" required>
+
+            <label for="preco">Preço:</label>
+            <input type="number" id="preco" step="0.01" required>
+
+            <label for="idioma">Idioma:</label>
+            <select id="idioma">
+                <option value="dublado">Dublado</option>
+                <option value="legendado">Legendado</option>
+            </select>
+
+            <label for="formato">Formato:</label>
+            <select id="formato">
+                <option value="2D">2D</option>
+                <option value="3D">3D</option>
+            </select>
+
+            <button type="submit">Salvar Sessão</button>
+        </form>
+    </main>
+    <script src="/script.js"></script>
+</body>
+</html>
