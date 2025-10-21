@@ -101,47 +101,10 @@ Para rodar os testes, rode o seguinte comando
 **Back-end:** Node, Express
 
 
-## Screenshots
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
-
-## Relacionados
-
-Segue alguns projetos relacionados
-
-[Awesome README](https://github.com/matiassingers/awesome-readme)
-
-
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
-
-
-## Aprendizados
-
-O que você aprendeu construindo esse projeto? Quais desafios você enfrentou e como você superou-os?
 
 
 ## 🛠 Habilidades
 Javascript, HTML, CSS...
-
-
-## Outras seções comuns em perfis do GitHub
-👩‍💻 Trabalho atualmente na/no...
-
-🧠 Estou aprendendo...
-
-👯‍♀️ Procuro colaborar em...
-
-🤔 Procuro ajuda com...
-
-💬 Me pergunte sobre...
-
-📫 Como entrar em contato comigo...
-
-😄 Pronomes...
-
-⚡️ Fatos engraçados...
-
 
 ## Funcionalidades
 
@@ -160,16 +123,4 @@ Para rodar esse projeto, você vai precisar adicionar as seguintes variáveis de
 `ANOTHER_API_KEY`
 
 
-## Documentação
-
-[Documentação](https://link-da-documentação)
-
-
-## Deploy
-
-Para fazer o deploy desse projeto rode
-
-```bash
-  npm run deploy
-```
 
